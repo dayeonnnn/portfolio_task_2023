@@ -124,14 +124,14 @@ body {
     width: calc(25% - 30px / 4); height: 350px;
     margin-right: 10px;
     background: url(../image/web.png) center;
-    background-size: cover;
+    background-size: 150%;
     border-radius: 100px 100px 0 0;
     position: relative;
     text-align: center;
     transition: all 0.3s;
 }
 .contents .content:hover {
-    background-size:150%;
+    background-size:170%;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
 
 }
